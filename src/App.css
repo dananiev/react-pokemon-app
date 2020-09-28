@@ -25,3 +25,12 @@
   color: #fff;
   font-size: 1em;
 }
+
+@media screen and (max-width: 430px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }   
+}
